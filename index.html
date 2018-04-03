@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
+    <style> body {padding: 0; margin: 0;} </style>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script src="./js/p5.min.js"></script>
+    <script src="./js/p5.dom.min.js"></script>
+    <script src="./sketch.js"></script>
+  </head>
+  <body>
+    <div class="main-container flex">
+
+      <div class="aside flex" id="formulaire">
+        <div class="header">
+          <h1>Titre</h1>
+          <h2>Soustitre</h2>
+        </div>
+        <div class="content">
+<input id="formtitle" type="text" name="Titre" placeholder="Inscrire Titre">
+<!-- <textarea name="name" rows="8" cols="80"></textarea> -->
+
+
+        </div>
+        <div class="footer">
+          <button type="button" name="button" onclick="saveAffiche()">
+            Export
+          </button>
+        </div>
+      </div>
+
+      <div class="aside flex" id="cvs-container"></div>
+
+    </div>
+
+  </body>
+</html>

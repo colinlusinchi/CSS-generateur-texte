@@ -1,0 +1,42 @@
+.aside {
+  flex: 1;
+  height: 100vh;
+}
+
+.content {
+  background: lightblue;
+}
+
+#cvs-container {
+  align-items: center;
+  justify-content: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.footer {
+  max-height: 40px;
+  width: 100%;
+  background: red;
+
+}
+
+#formulaire {
+  flex-direction: column;
+}
+
+#formulaire > div {
+  flex: 1;
+}
+
+.header {
+  max-height: 220px;
+  width: 100%;
+  background: red;
+
+}
+.main-container {
+
+}
